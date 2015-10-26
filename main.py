@@ -94,3 +94,9 @@ while True:
     ocean()
     screen.blit(healthbar, (10, 10))
     pygame.display.update()
+
+hungerbar = pygame.image.load('images/sprites/healthbar.png')
+while True:
+    ocean()
+    screen.blit(hungerbar, (5, 5))
+    pygame.display.update()
