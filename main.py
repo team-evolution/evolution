@@ -29,7 +29,7 @@ for fish in glob.glob('images/sprites/fish/*'):
     fishlist[fish[20:-4]] = pygame.image.load(fish)
 print fishlist
 
-def spawnfish():
+#def spawnfish():
 
 
 def move_left():
